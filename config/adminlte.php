@@ -46,7 +46,7 @@ return [
     */
 
     'logo' => '<b>Laravel</b>CMS',
-    'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
+    'logo_img' => 'vendor/adminlte/dist/img/laravel_icon512.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
@@ -188,8 +188,8 @@ return [
     */
 
     'use_route_url' => false,
-    'dashboard_url' => 'home',
-    'logout_url' => 'logout',
+    'dashboard_url' => 'painel',
+    'logout_url' => 'painel/logout',
     'login_url' => 'painel/login',
     'register_url' => 'painel/registrar',
     'password_reset_url' => 'password/reset',
