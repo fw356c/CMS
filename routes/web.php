@@ -15,5 +15,7 @@ Route::prefix('painel')->group(function(){
 
     Route::get('registrar' , 'App\Http\Controllers\Admin\Auth\RegisterController@index')->name('registro');
     Route::post('registrar' , 'App\Http\Controllers\Admin\Auth\RegisterController@registro');
+
+    Route::resource('users' , 'App\Http\Controllers\Admin\UserController');
 });
 
